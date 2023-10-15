@@ -1,0 +1,49 @@
+Products = {
+    "Id": "1",
+    "Name": "I7",
+    "descrition": "Intel Core i7-8700K Coffee Lake 6-Core 3.7 GHz (4.7 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I78700K Desktop Processor Intel UHD Graphics 630",
+    "Count": "1",
+    "Price": "379.99",
+    "img": "https://c1.neweggimages.com/ProductImageCompressAll1280/19-117-840-V01.jpg",
+    "category": "CPU",
+    "linkBack": "https://www.newegg.com/intel-core-i7-8th-gen-core-i7-8700k/p/N82E16819117827?Description=I7&cm_re=I7-_-19-117-840-_-Product",
+    "partener": "Partener",
+    "watts": 200
+}
+
+Partener ={
+    "id": "1",
+    "Name": "Newegg",
+    "Img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Newegg_logo.svg/1200px-Newegg_logo.svg.png",
+    "linkBack": "https://www.newegg.com/",
+}
+
+DiscontCampinhers = {
+    "id": "2",
+    "Name": "Campanha De desconto",
+    "descrition": "Campanha De desconto",
+    "products": [
+        "Products"
+    ],
+}
+
+Compability = {
+    "Id": 1,
+    "MainProdctid": 1,
+    "CompabilityProdctIds": [
+        "Products"
+    ],
+}
+//HTTP POST CPU GPU RAM Disk Resulation FPS
+//HTTP POST I3 2080 16 255 1080 60
+FPSExpection = {
+    "Id": 1,
+    "GameName": "GTA",
+    "FPS": 60,
+    "Resolution": "1080p",
+    "Settings": "High",
+    "PCParts": [
+        "Products"
+    ],
+    "Aprocimantion": "False" //For frontend to know if the FPS is aprocimantion or not so less work for the frontend more for us
+}
